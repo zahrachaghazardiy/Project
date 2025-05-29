@@ -1,0 +1,22 @@
+@import 'initializecss.scss';
+button{
+    border: none;
+    padding: 10px 20px;
+}
+div.accordion-body:hover{
+    background-color: #d8d6d6;
+}
+div.trash:hover,div.drafts:hover,div.sent:hover{
+     background-color: #d6d6d6;
+     cursor: pointer !important;
+}
+.modalbutton:hover{
+    background-color: black !important;
+}
+.accordion-button.bg-danger:hover{
+    background-color: #d6d6d6 !important;
+    color: black !important;
+}
+button#reply:hover,button#forward:hover{
+    background-color: hsl(0deg 0% 80%);
+}
